@@ -31,7 +31,9 @@ Users should be able to:
 
 ### 📸 Screenshot
 
-![3D Hover Card Preview](blog card/blog-preview-card-main/screenshots/1.png)
+![alt text](<blog card/blog-preview-card-main/screenshots/1.png>)
+![alt text](<blog card/blog-preview-card-main/screenshots/2.png>)
+![alt text](<blog card/blog-preview-card-main/screenshots/3.png>)
 
 
 
