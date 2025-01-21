@@ -31,14 +31,14 @@ Users should be able to:
 
 ### 📸 Screenshot
 
-![3D Hover Card Preview](./screenshot.jpg)
+![3D Hover Card Preview](blog card/blog-preview-card-main/screenshots/1.png)
 
 
 
 ### 🔗 Links
 
-- 🚀 Solution URL: 
-- 🌐 Live Site URL: [Add solution URL here]([(https://alan61503.github.io/Blog-preview-card/))
+- 🚀 Solution URL: [click here](https://github.com/alan61503/Blog-preview-card)
+- 🌐 Live Site URL: [click here](https://alan61503.github.io/Blog-preview-card/)
 
 ---
 
@@ -65,10 +65,8 @@ This project helped me deepen my understanding of CSS transitions and shadows. H
     -10px 10px 20px rgba(0, 0, 0, 0.3),
     0 8px 16px rgba(0, 0, 0, 0.3);
 }
-
+```
 I also learned how to maintain rounded corners for both inner and outer borders during hover transitions.
-
----
 
 ## 🔮 Continued development
 
@@ -91,7 +89,7 @@ I plan to:
 
 - 🌐 Website - [Your Name](https://www.your-website.com)
 - 🧑‍💻 Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- 🐱 GitHub - [@yourusername](https://github.com/yourusername)
+- 🐱 GitHub - [@yourusername](https://github.com/alan61503)
 
 ---
 
