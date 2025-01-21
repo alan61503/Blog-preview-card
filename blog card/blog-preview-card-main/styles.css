@@ -1,0 +1,129 @@
+/* General body styles */
+body {
+    background-color: #f4d04e; /* Matches the SVG background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Card styling */
+  .card {
+    background-color: white;
+    width: 350px;
+    border-radius: 15px; /* Rounded corners */
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: transform 0.2s ease, box-shadow 0.4s ease, border 0.4s ease; /* Smooth transitions */
+    border: 1px solid transparent; /* Ensures borders don't override the radius */
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+  }
+  
+  /* Card hover effect */
+  .card:hover {
+    transform: translateY(-10px); /* Lift effect on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Larger shadow on hover */
+    border-right: 10px solid black; /* Adds 3D effect on the right */
+    border-bottom: 10px solid black; /* Adds 3D effect on the bottom */
+    border-radius: 15px; /* Keep inner borders curved */
+  }
+  
+  /* Centering the SVG graphic */
+  .card-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px; /* Inner border rounded */
+  }
+  
+  .card-image svg {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+  
+  /* Card content styling */
+  .card-content {
+    padding: 20px;
+  }
+  
+  .tag {
+    display: inline-block;
+    background-color: #f4d04e;
+    color: #000000;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .date {
+    color: #555;
+    font-size: 0.8rem;
+    margin: 0;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: black;
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  h2:hover {
+    color: #f4d04e; /* Yellow on hover */
+  }
+  
+  .description {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 10px 0 20px;
+  }
+  
+  .author {
+    display: flex;
+    align-items: center;
+  }
+  
+  .author img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .author span {
+    font-size: 0.9rem;
+    color: #000;
+    font-weight: bold; /* Makes the author name bold */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 480px) {
+    .card {
+      width: 90%;
+      padding: 10px;
+    }
+  
+    h2 {
+      font-size: 1.2rem;
+    }
+  
+    .description {
+      font-size: 0.8rem;
+    }
+  
+    .author img {
+      width: 25px;
+      height: 25px;
+    }
+  }
+  
